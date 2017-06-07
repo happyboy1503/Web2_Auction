@@ -1,0 +1,221 @@
+﻿<header id="header" class="main-color">
+
+    <div class="inner fix">
+
+        <div id="topmenu">
+
+
+
+
+            <ul class="essential-top-menu">
+
+
+                <li><a href="@Url.Action("Index","Account")" title="Login / Register" data-icon="&#xe076;">Login / Register</a></li>
+
+
+
+
+                <li class="essential-cart has-submenu">
+                    <a href="@Url.Action("Index","Cart")" data-icon="&#xe067;">Cart (0)</a>
+
+
+                    <ul id="quickcart">
+
+                        <li class="empty">No products in the cart.</li>
+
+
+
+                        <li class="qc-buttons">
+                            <a href="@Url.Action("Index","Cart")">View Cart &rarr;</a>
+                            <a href="@Url.Action("Index","Cart")">Checkout &rarr;</a>
+                            <span class="total"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>0.00</span></span>
+                        </li>
+
+                    </ul><!-- #quickcart -->
+
+                </li><!-- .essential-cart -->
+
+                <li class="checkout ">
+                    <a href="@Url.Action("Index","Cart")" data-icon="&#xe050;">Checkout</a>
+                    <ul></ul>
+
+                </li><!-- .checkout -->
+
+                <li class="search">
+
+                    <span data-icon="&#xe024;"> &nbsp;</span>
+
+                    <form method="get" id="searchform" action="https://essential.prospekt-solutions.com/">
+                        <input type="text" value="" name="s" />
+                        <input type="submit" value="Search" />
+                        <input type="hidden" name="post_type" value="product" />
+                    </form>
+
+                </li><!-- .search -->
+
+            </ul><!-- .essential-top-menu -->
+
+
+        </div><!-- #topmenu -->
+
+        <div class="clear"></div>
+
+    </div><!-- .inner -->
+
+    <div class="clear"></div>
+
+
+
+    <div id="menubar" class="clearfix">
+
+        <div class="menu-bg"></div>
+
+        <div class="inner clearfix">
+
+
+            <div class="sitename clearfix">
+                <h2>
+                    <a href="../../index.html" title="shopping theme">Essential</a>
+                </h2>	 				<p>shopping theme</p>
+            </div><!-- .sitename -->
+
+
+            <div id="primary-menu" class="menu-main-menu-container">
+                <ul id="menu-main-menu" class="menu">
+                    <li id="nav-menu-item-2033" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  menu-item-children-2">
+                        <a href="@Url.Action("Index","Home")" >Home </a>
+                        
+                    </li>
+                    <li id="nav-menu-item-1759" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-parent-item menu-item-children-9">
+                        <a href="#" class="menu-link main-menu-link">Pages </a>
+                        <ul class="sub-menu">
+                            <li id="nav-menu-item-1551" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-product_cat current-menu-ancestor current-menu-parent menu-item-has-children menu-parent-item menu-item-children-2">
+                                <a href="../woman-watch/index.html" class="menu-link sub-menu-link">Featured </a>
+                                <ul class="sub-menu">
+                                    <li id="nav-menu-item-1549" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-taxonomy menu-item-object-product_cat current-menu-item menu-item-children-0"><a href="@Url.Action("Featured","Pages")" class="menu-link sub-menu-link">Fashion </a></li>
+                                    <li id="nav-menu-item-1554" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-children-0"><a href="@Url.Action("Featured_Luxury","Pages")" class="menu-link sub-menu-link">Luxury </a></li>
+                                </ul>
+                            </li>
+                            <li id="nav-menu-item-1955" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-parent-item menu-item-children-4">
+                                <a href="#" class="menu-link sub-menu-link">Page types </a>
+                                <ul class="sub-menu">
+                                    <li id="nav-menu-item-27" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-children-0"><a href="@Url.Action("PagePull","Pages")" class="menu-link sub-menu-link">Page Full Width </a></li>
+                                    <li id="nav-menu-item-1522" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-children-0"><a href="@Url.Action("PageLeft","Pages")" class="menu-link sub-menu-link">Page Left Sidebar </a></li>
+                                    
+                                    <li id="nav-menu-item-2061" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom menu-item-children-0"><a href="@Url.Action("InnerPage","Pages")" class="menu-link sub-menu-link">Inner Page With Slider </a></li>
+                                </ul>
+                            </li>
+                            <li id="nav-menu-item-1957" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-parent-item menu-item-children-2">
+                                <a href="#" class="menu-link sub-menu-link">Item options </a>
+                                <ul class="sub-menu">
+                                    <li id="nav-menu-item-1959" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom menu-item-children-0"><a href="@Url.Action("ItemFull","Pages")" class="menu-link sub-menu-link">Item Full Width </a></li>
+                                    <li id="nav-menu-item-1956" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom menu-item-children-0"><a href="@Url.Action("ItemRight","Pages")" class="menu-link sub-menu-link">Item Right Sidebar </a></li>
+                                </ul>
+                            </li>
+                            <li id="nav-menu-item-2042" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-children-0"><a href="@Url.Action("Wishlist","Pages")" class="menu-link sub-menu-link">Wishlist </a></li>
+                            <li id="nav-menu-item-2043" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-children-0"><a href="@Url.Action("Compare","Pages")" class="menu-link sub-menu-link">Compare </a></li>
+                            <li id="nav-menu-item-1650" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-parent-item menu-item-children-3">
+                                <a title="Blog list" href="../../category/uncategorized/index.html" class="menu-link sub-menu-link">Blog list </a>
+                                <ul class="sub-menu">
+                                    <li id="nav-menu-item-1760" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom menu-item-children-0"><a href="@Url.Action("BlogPull","Pages")" class="menu-link sub-menu-link">Blog Full Width </a></li>
+                                    <li id="nav-menu-item-1962" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom menu-item-children-0"><a href="@Url.Action("BlogRight","Pages")" class="menu-link sub-menu-link">Blog Right Sidebar </a></li>
+                                    <li id="nav-menu-item-2060" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-custom menu-item-object-custom menu-item-children-0"><a href="@Url.Action("BlogLeft","Pages")" class="menu-link sub-menu-link">Blog Left Sidebar </a></li>
+                                </ul>
+                            </li>
+                            <li id="nav-menu-item-1568" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-children-0"><a href="@Url.Action("Contact","Pages")" class="menu-link sub-menu-link">Contact </a></li>
+                            <li id="nav-menu-item-2101" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-children-0"><a href="@Url.Action("Shortcode","Pages")" class="menu-link sub-menu-link">Shortcodes </a></li>
+                        </ul>
+                    </li>
+                    <li id="nav-menu-item-1951" class="main-menu-item  menu-item-even menu-item-depth-0 megamenu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-parent-item menu-item-children-3">
+                        <a href="#" class="menu-link main-menu-link">MegaMenu </a>
+                        <ul class="sub-menu">
+                            <li id="nav-menu-item-1871" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-parent-item menu-item-children-3">
+                                <a href="@Url.Action("Man","MegaMenu")" class="menu-link sub-menu-link">Man </a>
+                                <ul class="sub-menu">
+                                    <li id="nav-menu-item-1876" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-children-0"><a href="@Url.Action("Breitling","MegaMenu")" class="menu-link sub-menu-link">Breitling </a></li>
+                                    <li id="nav-menu-item-1879" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-children-0"><a href="@Url.Action("Fortis","MegaMenu")" class="menu-link sub-menu-link">Fortis </a></li>
+                                    <li id="nav-menu-item-1878" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-children-0"><a href="@Url.Action("Breitling","ESS")" class="menu-link sub-menu-link">ESS </a></li>
+                                </ul>
+                            </li>
+                            <li id="nav-menu-item-1872" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-parent-item menu-item-children-4">
+                                <a href="@Url.Action("Featured_index","Pages")" class="menu-link sub-menu-link">Woman </a>
+                                <ul class="sub-menu">
+                                    <li id="nav-menu-item-1881" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-children-0"><a href="@Url.Action("Anneklein","MegaMenu")" class="menu-link sub-menu-link">Anne Klein </a></li>
+                                    <li id="nav-menu-item-1886" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-children-0"><a href="@Url.Action("Mulco","MegaMenu")" class="menu-link sub-menu-link">Mulco </a></li>
+                                    <li id="nav-menu-item-1885" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-children-0"><a href="@Url.Action("Michael_Kors","MegaMenu")" class="menu-link sub-menu-link">Michael Kors </a></li>
+                                    <li id="nav-menu-item-1883" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-children-0"><a href="@Url.Action("Juicycouture","MegaMenu")" class="menu-link sub-menu-link">Juicy Cotoure </a></li>
+                                </ul>
+                            </li>
+                            <li id="nav-menu-item-1873" class="sub-menu-item  menu-item-odd menu-item-depth-1 menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-parent-item menu-item-children-2">
+                                <a href="@Url.Action("Fun","MegaMenu")" class="menu-link sub-menu-link">Fun </a>
+                                <ul class="sub-menu">
+                                    <li id="nav-menu-item-1882" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-children-0"><a href="@Url.Action("Casual","MegaMenu")" class="menu-link sub-menu-link">Casual </a></li>
+                                    <li id="nav-menu-item-1884" class="sub-menu-item sub-sub-menu-item menu-item-even menu-item-depth-2 menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-children-0"><a href="@Url.Action("Katespade","MegaMenu")" class="menu-link sub-menu-link">Kate Spade </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="nav-menu-item-2344" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page menu-item-children-0"><a href="@Url.Action("Index","Auctions")" class="menu-link main-menu-link">Auctions </a></li>
+                    <li id="nav-menu-item-1870" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page menu-item-children-0"><a href="@Url.Action("Index","Shop")" class="menu-link main-menu-link">Shop </a></li>
+                </ul>
+            </div>
+            <div id="mobile-menu" class="menu-main-menu-container">
+                <div class="mobile-menu clearfix">
+                    <form>
+                        <select onchange="if (this.value) window.location.href=this.value" class="main-color">
+                            <option value="#">Menu</option>
+                            <option value="/">Home</option>
+                            <option value="/">Homepage 1</option>
+                            <option value="../../other-home-page/index.html">Homepage2</option>
+                            <option value="">Pages</option>
+                            <option value="../woman-watch/index.html">Featured</option>
+                            <option value="index.html">Fashion</option>
+                            <option value="../luxury/index.html">Luxury</option>
+                            <option value="">Page types</option>
+                            <option value="../../sample-page/index.html">Page Full Width</option>
+                            <option value="../../sample-page-left-sidebar/index.html">Page Left Sidebar</option>
+                            <option value="../../sample-page-right-sidebar/index.html">Page Right Sidebar</option>
+                            <option value="../sport/index.html">Inner Page With Slider</option>
+                            <option value="">Item options</option>
+                            <option value="../../product/juicy-couture-womens-1901038-stella-gold-plated-bracelet-watch/index.html">Item Full Width</option>
+                            <option value="../../product/stuhrling-original-mens-4atb-332l951-champion-alpine-automatic-skeleton-black-mesh-strap-watch/index.html">Item Right Sidebar</option>
+                            <option value="../../wishlist/index.html">Wishlist</option>
+                            <option value="../../compare/index.html">Compare</option>
+                            <option value="../../category/uncategorized/index.html">Blog list</option>
+                            <option value="../../wordpress/indexcff1.html?p=1">Blog Full Width</option>
+                            <option value="../../demo-post-5/index.html">Blog Right Sidebar</option>
+                            <option value="../../demo-post-6/index.html">Blog Left Sidebar</option>
+                            <option value="../../contact/index.html">Contact</option>
+                            <option value="../../shortcodes-2/index.html">Shortcodes</option>
+                            <option value="../man/ff.html">Error404</option>
+                            <option value="">MegaMenu</option>
+                            <option value="../man/index.html">Man</option>
+                            <option value="../man/breitling/index.html">Breitling</option>
+                            <option value="../man/fortis/index.html">Fortis</option>
+                            <option value="../man/ess/index.html">ESS</option>
+                            <option value="../woman-watch/index.html">Woman</option>
+                            <option value="../woman-watch/anneklein/index.html">Anne Klein</option>
+                            <option value="../woman-watch/mulco/index.html">Mulco</option>
+                            <option value="../woman-watch/michael-kors/index.html">Michael Kors</option>
+                            <option value="../woman-watch/juicycouture/index.html">Juicy Cotoure</option>
+                            <option value="../kids-2/index.html">Fun</option>
+                            <option value="../woman-watch/woman-casual/index.html">Casual</option>
+                            <option value="../woman-watch/katespade/index.html">Kate Spade</option>
+
+                            <option value="../../auctions/index.html">Auctions</option>
+                            <option value="../../shop/index.html">Shop</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+        </div><!-- .inner -->
+
+    </div><!-- #menubar -->
+
+
+
+
+
+
+</header>
+
